@@ -1,9 +1,21 @@
-import { Container } from "./styles";
+import { ReactNode } from "react";
 
-export function MainButton({ children }) {
+import { ButtonStyled } from "./styles";
+
+type ButtonProps = {
+  children: ReactNode;
+  onClick?: (event: MouseEvent) => void;
+  type?: string;
+};
+
+export function MainButton({
+  children,
+  onClick,
+  type = "button",
+}: ButtonProps) {
   return (
-    <Container>
-      <button type="button">{children}</button>
-    </Container>
+    <ButtonStyled type={type} onClick={onClick}>
+      {children}
+    </ButtonStyled>
   );
 }

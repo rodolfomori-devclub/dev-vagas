@@ -3,7 +3,8 @@ export const defaultTheme = {
     secondary: "#B7D930",
     tertiary: "#2D1633",
     background: "#EAEAEA",
-    lightBackground: "#FFFFFF",
+    light: "#FFFFFF",
     textColor: "#494949",
     lightTextColor: "#ADADAD",
-};
+  };
+  
