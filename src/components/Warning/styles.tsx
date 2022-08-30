@@ -12,7 +12,7 @@ export const Container = styled.div`
   p {
     border-radius: 5px;
     border: 1px solid ${(props) => props.theme.warning};
-    background: ${(props) => props.theme.BgWarning};
+    background: ${(props) => props.theme.bgWarning};
     color: ${(props) => props.theme.warning};
     padding: 30px 40px;
   }

@@ -7,5 +7,5 @@ export const defaultTheme = {
     textColor: "#494949",
     lightTextColor: "#ADADAD",
     warning:"#f95632",
-    BgWarning:"#ffe2e2"
+    bgWarning:"#ffe2e2"
 };
