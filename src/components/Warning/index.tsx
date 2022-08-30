@@ -8,7 +8,7 @@ interface IWarning {
 export function Warning({ title, paragraph }: IWarning) {
   return (
     <Container>
-      <h2> {title}</h2>
+      <h2>{title}</h2>
       <p>{paragraph}</p>    
     </Container>
   );
