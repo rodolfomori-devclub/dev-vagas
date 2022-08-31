@@ -1,8 +1,7 @@
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 
-import { HomeDev, HomeRecruiter } from "./containers";
-import { DevLayout } from "./layouts/DevLayout";
-import { RecruiterLayout } from "./layouts/RecruiterLayout";
+import { HomeDev } from './containers';
+import { DevLayout } from './layouts/DevLayout';
 
 export function Router() {
   return (
