@@ -1,5 +1,5 @@
-import { MainButton } from "../../components";
-import { Container } from "./styles";
+import { MainButton } from '../../components';
+import { Container } from './styles';
 
 export function HomeDev() {
   return (

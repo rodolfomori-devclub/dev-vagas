@@ -1,6 +1,7 @@
-import { ReactNode } from "react";
+/* eslint-disable react/require-default-props */
+import { ReactNode } from 'react';
 
-import { ButtonStyled } from "./styles";
+import { ButtonStyled } from './styles';
 
 type ButtonProps = {
   children: ReactNode;
@@ -8,11 +9,7 @@ type ButtonProps = {
   type?: string;
 };
 
-export function MainButton({
-  children,
-  onClick,
-  type = "button",
-}: ButtonProps) {
+export function MainButton({ children, onClick, type = 'button' }: ButtonProps) {
   return (
     <ButtonStyled type={type} onClick={onClick}>
       {children}
