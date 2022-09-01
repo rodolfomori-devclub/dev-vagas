@@ -1,3 +1,3 @@
-export { MainButton } from "./MainButton";
-export { Header } from "./Header";
-export { Warning } from "./Warning";
+export { MainButton } from './MainButton';
+export { Header } from './Header';
+export { Warning } from './Warning';
