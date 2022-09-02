@@ -14,7 +14,7 @@ align-items: center;
 
 img {
 position: absolute;
-margin-left: 45%;
+margin-left: 42.5%;
 margin-top: -130px;
 }
 
