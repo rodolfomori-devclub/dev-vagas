@@ -14,30 +14,29 @@ export const Container = styled.div`
 nav, ul{
     display: flex;
     align-items: center;
-    gap: 45px;
+
+    .icons{
+            width: 22px;
+            height: 20px;
+            margin-right: 8px;
+        }
 
     li{
         list-style-type: none;
-      
-        .icons{
-            width: 22px;
-            height: 20px;
-            margin-right: 7px;
-        }
-
+        margin-right: 45px;
+    
         a{
-            text-decoration: none;
-          
+        text-decoration: none;  
         }
     }
 }
 
 .devAreaBox{
-    
     background: ${(props) => props.theme.primary};
     border-radius: 5px;
     padding: 7px;
     display: flex;
+    align-items: center;
     gap: 1rem;
     width: 188px;
     height: 60px;

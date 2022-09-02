@@ -23,18 +23,18 @@ export function TopMenu() {
 
             <nav>
                 <ul>
+                <img className="icons" src={mainIcons[0]} alt="Canditato" />
                     <li>
-                        <img className="icons" src={mainIcons[0]} alt="Canditato" />
                         <Link to="/">Procurar candidato</Link>
                     </li>
 
+                    <img className="icons" src={mainIcons[1]} alt="Empresa" />
                     <li>
-                        <img className="icons" src={mainIcons[1]} alt="Empresa" />
                         <Link to="/">Cadastrar empresa</Link>
                     </li>
 
+                    <img className="icons" src={mainIcons[2]} />
                     <li>
-                        <img className="icons" src={mainIcons[2]} />
                         <Link to="/">Acesso empresarial</Link>
                     </li>
 
