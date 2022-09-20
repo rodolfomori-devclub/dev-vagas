@@ -17,4 +17,13 @@ body {
 
 button {
  cursor: pointer;
+ transition: 0.3s;
+
+ &:hover{
+   opacity: 0.8
+ }
+
+ &:active{
+   opacity: 0.6
+ }
 }`;
