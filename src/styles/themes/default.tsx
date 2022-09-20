@@ -6,5 +6,6 @@ export const defaultTheme = {
     light: "#FFFFFF",
     textColor: "#494949",
     lightTextColor: "#ADADAD",
-  };
-  
+    warning:"#f95632",
+    bgWarning:"#ffe2e2"
+};
